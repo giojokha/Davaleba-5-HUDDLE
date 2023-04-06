@@ -1,0 +1,143 @@
+ body {
+    background-image: url("images/bg-mobile.svg");
+    background-color:#684BB1;
+ }
+ 
+ * {
+    margin:0;
+    padding:0;
+ }
+ 
+ .huddle {
+    width:120px;
+    margin-top:40px;
+    margin-left:38px;
+
+ }
+
+ .illusion {
+    width:296px;
+
+
+ }
+ 
+ section {
+    margin: 0 36px;
+    margin:auto;
+    margin-top:70px;
+    flex-direction:column;
+    display:flex;
+    align-items: center;
+
+ }
+ 
+ h1 {
+    font-weight:600;
+    font-size:24px;
+    text-align:36px;
+    margin-top:60px;
+    line-height:36px;
+    color:white;
+ 
+}
+
+ p {
+    font-weight:400;
+    font-size:16px;
+    line-height:24px;
+    text-align:center;
+    color:white;
+    margin-top:16px;
+ 
+}
+
+ button {
+    all: unset;
+    width:200px;
+    background-color:white;
+    padding:11px 0;
+    border-radius: 28px;
+    margin:auto;
+    margin-top:24px;
+    cursor:pointer;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.269022);
+    display:flex;
+    justify-content:center;
+}
+button:hover {
+    background-color:#E880E8;
+}
+
+
+.Div-One {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin: 0 32px;
+}
+@media (min-width:1440px) {
+
+    section {
+    flex-direction:row;
+}
+
+.illusion {
+   width:696px;   
+}
+h1 {
+    font-size:48px;
+    line-height:60px;
+}
+p {
+    line-height:27px;
+    font-size:18px;
+}
+.Div-One {
+    max-width:520px;
+    margin:0 59px;
+}
+section {
+    margin: 0 85px;
+    margin-top:105px;
+
+}
+.huddle {
+    width:200px;
+}
+body {
+    background-image: url("images/bg-desktop.svg");
+}
+}
+
+i {
+    color:white;
+}
+
+.IconDiv {
+    width:40px;
+    height:40px;
+    border:1px solid white;
+    border-radius:50%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.IconDiv:hover {
+    cursor:pointer;
+}
+
+.FlexDiv {
+    display:flex;
+    margin-right:80px;
+}
+
+footer {
+    display:Flex;
+    flex-direction:row-reverse;
+    width:1440px;
+    margin:auto;
+}
+footer:hover {
+    color:#FF52C1;
+    cursor:pointer;
+}
